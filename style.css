@@ -78,15 +78,31 @@ section h2 {
     border-top:  1px solid #888;
     border-bottom: 1px solid #888;
 }
-section p {
-    font-size: 0.8rem;
+section .serif {
+    margin-top: 20px;
+    font-family: serif;
+}
+section p, dl {
+    font-size: 0.85rem;
     line-height: 1.5rem;
 }
-
+section dl {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+section dt {
+    width: 20%;
+    font-weight: bold;
+}
+section dd {
+    width: 80%;
+}
 section table {
     margin: 50px 0;
 }
-
 #table1 {
     width: 100%;
     border-collapse: collapse;
